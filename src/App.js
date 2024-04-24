@@ -31,7 +31,7 @@ class App extends React.Component {
             <h1>Coming Soon...</h1>
             <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
           </div>
-          <a href="sumit17124@gmail.com">
+          <a href="">
             <div className="cta">Send us an Email</div>
           </a>
         </div>
