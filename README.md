@@ -1,36 +1,92 @@
-coming-soon
-======================
-[![deploy](https://github.com/arkn98/coming-soon/workflows/deploy/badge.svg)](https://github.com/arkn98/coming-soon/actions?query=workflow%3Adeploy)
-[![license](https://img.shields.io/github/license/arkn98/coming-soon)](LICENSE)
+# Coming Soon
 
-A simple coming soon page, built using [create-react-app](https://github.com/facebook/create-react-app).
+Welcome to Coming Soon, a simple React project for creating a "coming soon" landing page.
 
-<p align="center">
-  <img src="./docs/scrot.png" alt="Coming soon page" width="738">
-</p>
+## Getting Started
 
-**Note:** I created this as an exercise when I was learning React. So please be mindful of many things that are considered "non-optimal".
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Getting started
+### Prerequisites
 
-### Installation
+Before you begin, ensure you have the following installed on your machine:
 
-1. Clone this repository
-2. `cd coming-soon` to go into the project root
-3. `yarn` to install dependencies
+- Node.js and npm (or Yarn)
 
-### Running locally
+### Installing
 
-1. `yarn start` to start the hot-reloading server
-2. open `http://localhost:3000` on your browser
+Follow these steps to get a development environment running:
+
+1. Clone the repository:
+
+git clone https://github.com/sumit171204/comingsoon.git
+
+
+2. Navigate into the project directory:
+
+cd comingsoon
+
+
+3. Install dependencies:
+
+If using npm:
+
+npm install
+
+
+If using Yarn:
+
+yarn install
+
+
+### Running
+
+To start the development server, run:
+
+If using npm:
+
+npm start
+
+
+If using Yarn:
+
+yarn start
+
+
+The app should now be running on [http://localhost:3000](http://localhost:3000).
 
 ### Building
 
-1. `yarn build` to build the app
-2. Copy the contents of the `build` folder and serve it with your own server
+To build the app for production, run:
 
-## Thanks
+If using npm:
 
-Uses: 
- - [simple-icons](https://github.com/simple-icons/simple-icons) released under the [CC0-1.0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) license.
- - [IBM Plex](https://github.com/IBM/plex) released under the [OFL-1.1](https://github.com/IBM/plex/blob/master/LICENSE.txt) license.
+npm run build
+
+
+If using Yarn:
+
+yarn build
+
+
+This will create an optimized production build in the `build` directory.
+
+## Deployment
+
+To deploy the app, you can use a hosting service like Vercel, Netlify, or GitHub Pages. 
+
+For example, if you're using Vercel, you can deploy with the following command:
+
+vercel --prod
+
+
+## Contributing
+
+Pull requests and contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
